@@ -18,6 +18,6 @@ class Student extends Person {
 
     @Override
     public String toString() {
-        return super.toString(); // Calls the Person's toString method
+        return super.toString() + "\n credits: " + credits; // Calls the Person's toString method
     }
 }
